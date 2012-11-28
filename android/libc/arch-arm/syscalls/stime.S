@@ -16,7 +16,7 @@
 stime:
     .save   {r4, r7}
     stmfd   sp!, {r4, r7}
-    ldr     r7, =25
+    ldr     r7, =__NR_stime
     swi     #0
     ldmfd   sp!, {r4, r7}
     movs    r0, r0
