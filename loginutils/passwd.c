@@ -15,7 +15,6 @@
 
 #include "libbb.h"
 #include <syslog.h>
-#include <sys/resource.h> /* setrlimit */
 
 static void nuke_str(char *str)
 {

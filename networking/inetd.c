@@ -165,7 +165,6 @@
 //usage:     "\n		(default: 0 - disabled)"
 
 #include <syslog.h>
-#include <sys/resource.h> /* setrlimit */
 #include <sys/socket.h> /* un.h may need this */
 #include <sys/un.h>
 
